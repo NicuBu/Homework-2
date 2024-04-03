@@ -1,0 +1,29 @@
+:root{
+--orange:#ff6c00;
+--white:#fffff;
+--black:#303030;
+--primary-font: 'Open sans', 'sans-serif';
+--secundary-font:'Raleway', 'sans-serif';
+
+}
+
+.header{
+}
+.header__logo{
+
+}
+.header__navigation ul{
+    list-style: none;
+
+}
+.header__navigation a{
+    text-decoration: none;
+    font-family: 'Open sans';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+}
+.header__info a{
+    text-decoration: none;
+    font-family: 'Open sans', sans-serif;
+}

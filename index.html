@@ -3,22 +3,27 @@
     <head>
     <meta charset="UTF-8"/>
     <title>Lectia 1 HTML and CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     </head>
     <body>
-    <header>
-        <div>
+    <header class="header">
+        <div class="header__logo">
             <a href="#"><img src="img/Logo.svg" alt="logo"/></a>
         </div>
-        <nav>
+        <nav class="header__navigation">
             <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Services and prices</a></li>
-                <li><a href="">Barbers</a></li>
-                <li><a href="">Contacts</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services and prices</a></li>
+                <li><a href="#">Barbers</a></li>
+                <li><a href="#">Contacts</a></li>
             </ul>
         </nav>
-        <div><a href="tel:+721333888">+721333888</a></div>
-        <button>Book a service</button>
+        <div class="header__info"><a href="tel:+721333888">+721333888</a></div>
+        <button class="header__booking" type="button">Book a service</button>
     </header>
     <main>
         <section>
